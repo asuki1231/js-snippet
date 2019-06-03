@@ -7,19 +7,16 @@ class Person {
   
     setSurname(surname) {
       this.surname = surname;
-      // Return this for chaining
       return this;
     }
   
     setAge(age) {
       this.age = age;
-      // Return this for chaining
       return this;
     }
   
     save() {
       console.log(this.name, this.surname, this.age);
-      // Return this for chaining
       return this;
     }
   }
