@@ -20,3 +20,4 @@ class Person {
   person.setSurname("Doe");
   person.setAge(29);
   person.save();
+  
