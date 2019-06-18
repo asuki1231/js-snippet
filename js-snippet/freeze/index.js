@@ -6,5 +6,5 @@
 const obj = { id: 1, name: "hoge" };
 Object.freeze(obj);
 
-obj.id = 2;
-obj.age = 15;
+obj.id = 2; // Error
+obj.age = 15; // Error
