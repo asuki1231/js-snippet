@@ -1,0 +1,13 @@
+<ul>
+  <li><a href="dummy1.html" target="_blank"></a></li>
+  <li><a href="dummy4.html" target="_blank"></a></li>
+</ul>
+
+<script>
+  //安全に_blank属性を利用するために
+  //a要素にnoopenerを付与する
+  const aElms = document.querySelectorAll("a");
+  aElms.forEach(elm => {
+    elm.setAttribute("rel", "noopener");
+  });
+</script>
